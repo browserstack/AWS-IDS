@@ -8,7 +8,7 @@ import idsNotify
 
 list_user=""
 
-parser = argparse.ArgumentParser(description='Process some integers.')
+parser = argparse.ArgumentParser(description='IAM intrusion detection')
 parser.add_argument("-l", "--list-user", action="store", dest="list_user", help="list trusted user file")
 args = parser.parse_args()
 
